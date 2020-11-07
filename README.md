@@ -27,12 +27,14 @@ files in the "data" directory:
 
 files in the "src" directory:
 
-(1) LOS_Main.m: 
+(1) LOS_Main.m: The main file which computes the performance metric (PM) of an input network using layer-specific optimal scheduling (LOS)
 
--The main file which computes the performance metric (PM) of an input network using layer-specific optimal scheduling (LOS)
 -Input: CNN topology, Hardware Specification, Technology parameters 
+
 -Input: Performance Metric, one out of five PMs -- Energy, Delay, Energy×Delay, Energy^2×Delay, and Energy×Delay^2
+
 -Output: Name of the optimal scheduling branch for each layer
+
 -Output: Value of the PM using LOS and its improvement over the five fixed scheduling (FS) schemes
 
 (2) LOS_Computation.m: function to compute the PM of a network (used by LOS_Main.m)
