@@ -26,7 +26,9 @@ files in the "data" directory:
 -Used as input by the Main.m files in the "src" directory.
 
 files in the "src" directory:
+
 (1) LOS_Main.m: 
+
 -The main file which computes the performance metric (PM) of an input network using layer-specific optimal scheduling (LOS)
 -Input: CNN topology, Hardware Specification, Technology parameters 
 -Input: Performance Metric, one out of five PMs -- Energy, Delay, Energy×Delay, Energy^2×Delay, and Energy×Delay^2
