@@ -1,7 +1,7 @@
 # DeepOpt: 
 -A Tool for layer-specific and hardware-specific optimized scheduling of CNN Workload for ASIC-based systolic accelerator.
 
--A Tool to optimally allocate hardware resources under user-specified area budget and performance metric.
+-A Tool to optimally allocate hardware resources under user-specified area budget and performance metric (i.e., Energy, Delay, Energy×Delay, Energy^2×Delay, and Energy×Delay^2).
 
 If you use any part of this project please cite:
 
@@ -12,13 +12,17 @@ The directory named "src" and "data" contain all the required files to use the t
 ## Guideline to use DeepOpt
 
 files in the "data" directory:
+
 (1) .txt files: 
 -These files contain the shape parameters of all the layers for SqueezeNet-v1.1, GoogleNet-v1, and ResNet-50.
+
 -There are two files for each network: one with the description of the format of each row and another without any description.
+
 -Used as input by the Main.m files in the "src" directory.
 
 (2) .mat files:
 -These files contain a range of SRAM sizes and associated data access energy extracted from CACTI
+
 -Used as input by the Main.m files in the "src" directory.
 
 files in the "src" directory:
