@@ -1,5 +1,6 @@
 # DeepOpt: 
 -A Tool for layer-specific and hardware-specific optimized scheduling of CNN Workload for ASIC-based systolic accelerator.
+
 -A Tool to optimally allocate hardware resources under user-specified area budget and performance metric.
 
 If you use any part of this project please cite:
