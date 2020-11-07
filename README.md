@@ -47,7 +47,7 @@ The directory named "src" and "data" contain all the required files to use the t
 
 (5) Opt_Hardware_Allocation.m: function to compute PM of a network using LOS (used by OHA_Main.m)
 
-(4) "private" directory: functions of the implementations of all the scheduling schemes.
+(6) "private" directory: functions of the implementations of all the scheduling schemes.
 
 **Note:**
 In order to run the main.m files, place all the files of the "data" directory inside the "private" folder of the "src" directory
