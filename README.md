@@ -41,7 +41,7 @@ The directory named "src" and "data" contain all the required files to use the t
 
 (2) LOS_Computation.m: function to compute the PM of a network (used by LOS_Main.m)
 
-(3) Network_Parameters.m: function to obtain the parameter of all the networks (AlexNet, VGG-16, SqueezeNet-v1.1, GoogleNet-v1, and ResNet-50).
+(3) Network_Parameters.m: function to obtain the parameters of all the networks (AlexNet, VGG-16, SqueezeNet-v1.1, GoogleNet-v1, and ResNet-50).
 
 (4) OHA_Main.m: The Main file to determine the optimal allocation of hardware resources based on a user-specified area budget and performance metric.
 
