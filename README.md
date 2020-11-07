@@ -11,7 +11,7 @@ The directory named "src" and "data" contain all the required files to use the t
 
 ## Guideline to use DeepOpt
 
-files in the "data" directory:
+**Files in the "data" directory:**
 
 (1) .txt files: 
 -These files contain the shape parameters of all the layers for SqueezeNet-v1.1, GoogleNet-v1, and ResNet-50.
@@ -25,7 +25,7 @@ files in the "data" directory:
 
 -Used as input by the Main.m files in the "src" directory.
 
-files in the "src" directory:
+**Files in the "src" directory:**
 
 (1) LOS_Main.m: The main file which computes the performance metric (PM) of an input network using layer-specific optimal scheduling (LOS)
 
@@ -47,5 +47,5 @@ files in the "src" directory:
 
 (4) "private" directory: functions of the implementations of all the scheduling schemes.
 
-Note:
+**Note:**
 In order to run the main.m files, place all the files of the "data" directory inside the "private" folder of the "src" directory
