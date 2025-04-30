@@ -5,7 +5,7 @@
 
 If you use any part of this project please cite:
 
-S. D. Manasi and S. S. Sapatnekar, “DeepOpt: Optimized Scheduling of CNN Workloads for ASIC-based Systolic Deep Learning Accelerators”, In Proceedings of the 26th Asia and South Pacific Design Automation Conference (ASPDAC '21). https://doi.org/10.1145/3394885.3431539
+S. D. Manasi and S. S. Sapatnekar, “DeepOpt: Optimized Scheduling of CNN Workloads for ASIC-based Systolic Deep Learning Accelerators”, In Proceedings of the 26th Asia and South Pacific Design Automation Conference (ASPDAC), pp. 235-241, January 2021. https://doi.org/10.1145/3394885.3431539
 
 The directory named "src" and "data" contain all the required files to use the tool.
 
